@@ -69,7 +69,7 @@ body {
           align-items: center;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 780px) {
   .minimo_body {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -87,7 +87,7 @@ body {
   letter-spacing: 5px;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 780px) {
   .minimo_title {
     margin: 0 0 30px 0;
     font-size: 45px;
@@ -99,6 +99,11 @@ body {
   margin: 0 -50px;
 }
 
+@media (max-width: 1025px) {
+  .minimo_list {
+    margin: 0;
+  }
+}
 @media (max-width: 770px) {
   .minimo_list ul {
     margin: 0;
@@ -209,7 +214,7 @@ body {
   margin: 0 0 0 -30px;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1025px) {
   .lifestyle_body {
     margin: 0;
   }
